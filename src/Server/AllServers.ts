@@ -215,7 +215,7 @@ export function prestigeAllServers(): void {
     delete AllServers[member];
   }
   AllServers = {};
-  closeDeletedScripts(true);
+  closeDeletedScripts(false);
 }
 
 export function loadAllServers(saveString: string): void {
